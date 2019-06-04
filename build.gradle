@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'pl.edu.agh.iet.sr.zookeeper'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.apache.zookeeper', name: 'zookeeper', version: '3.5.5'
+}
